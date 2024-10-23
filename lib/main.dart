@@ -5,6 +5,7 @@ import 'package:chat_app/features/splash_screen/presentation/views/splash_screen
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+
 void main() {
   runApp(const MyApp());
 
