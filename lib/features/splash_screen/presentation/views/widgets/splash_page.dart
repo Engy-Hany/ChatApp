@@ -1,11 +1,13 @@
 import 'dart:async';
 
-import 'package:chat_app/core/constants/asset%20images.dart';
+
 import 'package:chat_app/core/themes/colors_app.dart';
 import 'package:chat_app/core/themes/styles.dart';
 import 'package:chat_app/features/auth/presentation/views/login_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import '../../../../../core/constants/asset_images.dart';
 
 
 
@@ -43,12 +45,12 @@ class _SplashScreenState extends State<SplashPage> {
 
             Text(
               "WhatsUp",
-              style: styles.textStyle25.copyWith(
+              style: styles.textStyle24.copyWith(
                 color: ColorsApp.primaryColor,
               ),),
          SizedBox(height: 120,),
           Text('The best chat app of this century',
-         style: styles.textStyle18.copyWith(
+         style: styles.textStyle16.copyWith(
            color: ColorsApp.secondColor,
            fontWeight: FontWeight.w400,
          ),),
