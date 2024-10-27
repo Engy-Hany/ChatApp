@@ -8,6 +8,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../home/presentation/views/home_screen.dart';
+import '../register_screen.dart';
 
 class LoginPage extends StatefulWidget{
   @override
@@ -56,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                    onSuccess: (){
                      Navigator.pushReplacement(
                          context,
-                       MaterialPageRoute(builder: (context) => HomeScreen())
+                       MaterialPageRoute(builder: (context) => RegisterScreen())
                      );}
                    ),
 
