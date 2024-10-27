@@ -7,6 +7,7 @@ import 'package:chat_app/features/auth/presentation/views/widgets/username_field
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../../../home/presentation/views/home_screen.dart';
+import '../login_screen.dart';
 import 'email_field.dart';
 import 'login_row.dart';
 class RegisterPage extends StatefulWidget{
@@ -65,7 +66,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   onSuccess: (){
                     Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => HomeScreen())
+                        MaterialPageRoute(builder: (context) => LoginScreen())
                     );
                   },
                   usernameController: usernameController,
