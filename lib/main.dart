@@ -10,6 +10,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'features/auth/presentation/views/login_screen.dart';
 import 'features/call/presentation/views/call_screen.dart';
 import 'features/chat/presentation/views/chat_screen.dart';
+import 'features/profile/presentation/views/profile_screen.dart';
 import 'features/status/presentation/views/status_screen.dart';
 
 
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget{
        useMaterial3: true,
      ),
       debugShowCheckedModeBanner: false,
-      home: CallScreen(),
+      home: ProfileScreen(),
 
 
 

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 Widget defaultText({
   required TextEditingController controller,
   required TextInputType type,
-  required String label,
+   String? label,
    IconData? prefix,
   IconData? suffix,
   bool isObscure= false,
