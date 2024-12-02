@@ -16,24 +16,26 @@ class ProfilePage extends StatelessWidget{
     nameController.text = 'Engy Hany';
     phoneController.text ='+01274256460';
       return Scaffold(
-        body: Column(
-          children: [
-           ProfileAppbar(),
-            Divider(thickness: 1,
-              color: ColorsApp.thirdColor,
-            ),
-            ProfilePic(),
-            Divider(thickness: 1,
-              color: ColorsApp.thirdColor,
-            ),
-            NameField(nameController:nameController ),
-            SizedBox(height: 10,),
-            PhoneProfileField(phoneController: phoneController),
-            SizedBox(height: 20,),
-            SaveButton(
-              nameController: nameController,
-              phoneController: phoneController,),
-          ],
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+             ProfileAppbar(),
+              Divider(thickness: 1,
+                color: ColorsApp.thirdColor,
+              ),
+              ProfilePic(),
+              Divider(thickness: 1,
+                color: ColorsApp.thirdColor,
+              ),
+              NameField(nameController:nameController ),
+              SizedBox(height: 10,),
+              PhoneProfileField(phoneController: phoneController),
+              SizedBox(height: 20,),
+              SaveButton(
+                nameController: nameController,
+                phoneController: phoneController,),
+            ],
+          ),
         ),
       );
   }
