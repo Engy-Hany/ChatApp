@@ -4,7 +4,6 @@ import 'package:chat_app/features/auth/presentation/views/widgets/phone_field.da
 import 'package:chat_app/features/auth/presentation/views/widgets/register_button.dart';
 import 'package:chat_app/features/auth/presentation/views/widgets/register_title.dart';
 import 'package:chat_app/features/auth/presentation/views/widgets/username_field.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../../../home/presentation/views/home_screen.dart';
 import 'email_field.dart';
