@@ -50,6 +50,7 @@ final bool isLoading;
                   text,
                   style: styles.textStyle24.copyWith(
                     color: textColor ?? Colors.black,
+                    fontSize: fontSized ?? 24,
                   ),
                 )
               )
