@@ -10,7 +10,7 @@ class RecentCall extends StatelessWidget{
   Widget build(BuildContext context) {
       return ListView.builder(
           shrinkWrap: true,
-          physics: NeverScrollableScrollPhysics(),
+          physics: ScrollPhysics(),
           itemCount: 10,
           itemBuilder:  (context,index){
                return ListTile(
