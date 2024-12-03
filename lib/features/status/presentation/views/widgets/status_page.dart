@@ -1,3 +1,4 @@
+import 'package:chat_app/features/status/presentation/views/widgets/add_status.dart';
 import 'package:chat_app/features/status/presentation/views/widgets/my_status.dart';
 import 'package:chat_app/features/status/presentation/views/widgets/recent_updates.dart';
 import 'package:chat_app/features/status/presentation/views/widgets/title_viewed_updates.dart';
@@ -26,6 +27,8 @@ class StatusPage extends StatelessWidget{
       
         ],
       ),
+
+      floatingActionButton: AddStatus(),
     );
   }
 
