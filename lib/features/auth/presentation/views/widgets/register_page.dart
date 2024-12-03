@@ -65,7 +65,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   onSuccess: (){
                     Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => LoginScreen())
+                        MaterialPageRoute(builder: (context) => HomeScreen())
                     );
                   },
                   usernameController: usernameController,

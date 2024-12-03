@@ -57,7 +57,7 @@ class _LoginPageState extends State<LoginPage> {
                    onSuccess: (){
                      Navigator.pushReplacement(
                          context,
-                       MaterialPageRoute(builder: (context) => RegisterScreen())
+                       MaterialPageRoute(builder: (context) => HomeScreen())
                      );}
                    ),
 
